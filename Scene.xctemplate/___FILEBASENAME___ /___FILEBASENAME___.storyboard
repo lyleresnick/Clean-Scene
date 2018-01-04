@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="tbT-lR-xCL">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--___VARIABLE_moduleName___-->
+        <scene sceneID="Lae-Oc-rZX">
+            <objects>
+                <viewController storyboardIdentifier="___VARIABLE_moduleName___ViewController" id="cH4-rw-JwR" customClass="___VARIABLE_moduleName___ViewController" customModule="Todo" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="xvg-3V-0aT"/>
+                        <viewControllerLayoutGuide type="bottom" id="prc-Pb-eGC"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="6qy-z5-2zk">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="c31-BT-4yf">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="c31-BT-4yf" firstAttribute="top" secondItem="xvg-3V-0aT" secondAttribute="bottom" id="BO2-Ln-kpB"/>
+                            <constraint firstItem="prc-Pb-eGC" firstAttribute="top" secondItem="c31-BT-4yf" secondAttribute="bottom" id="NTT-Bx-neA"/>
+                            <constraint firstItem="c31-BT-4yf" firstAttribute="leading" secondItem="6qy-z5-2zk" secondAttribute="leading" id="iwE-1Z-SlO"/>
+                            <constraint firstAttribute="trailing" secondItem="c31-BT-4yf" secondAttribute="trailing" id="wFE-Gd-4FA"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
+                    <navigationItem key="navigationItem" title="___VARIABLE_moduleName___" id="olw-vS-9vq"/>
+                    <connections>
+                        <outlet property="tableView" destination="c31-BT-4yf" id="3Zt-Jy-kgH"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0hq-VK-Slb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="575.20000000000005" y="-9.4452773613193415"/>
+        </scene>
+        <!--Default Navigation Controller-->
+        <scene sceneID="PHj-Uo-ktL">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="tbT-lR-xCL" customClass="DefaultNavigationController" customModule="lifetales" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="sP8-AX-LJr" customClass="DefaultNavigationBar" customModule="lifetales" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="cH4-rw-JwR" kind="relationship" relationship="rootViewController" id="n7u-d4-Uth"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I2T-Vr-cCR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-364" y="-9.4452773613193415"/>
+        </scene>
+    </scenes>
+</document>
