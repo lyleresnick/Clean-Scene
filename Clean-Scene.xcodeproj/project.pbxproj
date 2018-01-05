@@ -15,7 +15,7 @@
 		B3D92B8220002F9300341601 /* ___FILEBASENAME___PresenterOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B6620002F9200341601 /* ___FILEBASENAME___PresenterOutput.swift */; };
 		B3D92B8320002F9300341601 /* ___FILEBASENAME___ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B6720002F9200341601 /* ___FILEBASENAME___ViewModel.swift */; };
 		B3D92B8420002F9300341601 /* ___FILEBASENAME___.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B6920002F9200341601 /* ___FILEBASENAME___.swift */; };
-		B3D92B8520002F9300341601 /* ___FILEBASENAME___Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B6A20002F9200341601 /* ___FILEBASENAME___Manager.swift */; };
+		B3D92B8520002F9300341601 /* ___FILEBASENAME___ManagerImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B6A20002F9200341601 /* ___FILEBASENAME___ManagerImpl.swift */; };
 		B3D92B8620002F9300341601 /* ___FILEBASENAME___Connector.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B6C20002F9200341601 /* ___FILEBASENAME___Connector.swift */; };
 		B3D92B8720002F9300341601 /* ___FILEBASENAME___Adapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B6E20002F9200341601 /* ___FILEBASENAME___Adapter.swift */; };
 		B3D92B8820002F9300341601 /* ___FILEBASENAME___CellConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B6F20002F9200341601 /* ___FILEBASENAME___CellConfigurator.swift */; };
@@ -34,6 +34,7 @@
 		B3D92B9720002FA200341601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B9520002FA200341601 /* AppDelegate.swift */; };
 		B3D92B9820002FA200341601 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B9620002FA200341601 /* ViewController.swift */; };
 		B3D92B9A2000320500341601 /* ManagerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B992000320500341601 /* ManagerResponse.swift */; };
+		B3F70CC720003955004953B7 /* ___FILEBASENAME___Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F70CC620003955004953B7 /* ___FILEBASENAME___Manager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +48,7 @@
 		B3D92B6620002F9200341601 /* ___FILEBASENAME___PresenterOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___PresenterOutput.swift"; sourceTree = "<group>"; };
 		B3D92B6720002F9200341601 /* ___FILEBASENAME___ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ViewModel.swift"; sourceTree = "<group>"; };
 		B3D92B6920002F9200341601 /* ___FILEBASENAME___.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___.swift"; sourceTree = "<group>"; };
-		B3D92B6A20002F9200341601 /* ___FILEBASENAME___Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Manager.swift"; sourceTree = "<group>"; };
+		B3D92B6A20002F9200341601 /* ___FILEBASENAME___ManagerImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___ManagerImpl.swift"; sourceTree = "<group>"; };
 		B3D92B6C20002F9200341601 /* ___FILEBASENAME___Connector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Connector.swift"; sourceTree = "<group>"; };
 		B3D92B6E20002F9200341601 /* ___FILEBASENAME___Adapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Adapter.swift"; sourceTree = "<group>"; };
 		B3D92B6F20002F9200341601 /* ___FILEBASENAME___CellConfigurator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___CellConfigurator.swift"; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		B3D92B9520002FA200341601 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B3D92B9620002FA200341601 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3D92B992000320500341601 /* ManagerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerResponse.swift; sourceTree = "<group>"; };
+		B3F70CC620003955004953B7 /* ___FILEBASENAME___Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +149,9 @@
 		B3D92B6820002F9200341601 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				B3F70CC620003955004953B7 /* ___FILEBASENAME___Manager.swift */,
+				B3D92B6A20002F9200341601 /* ___FILEBASENAME___ManagerImpl.swift */,
 				B3D92B6920002F9200341601 /* ___FILEBASENAME___.swift */,
-				B3D92B6A20002F9200341601 /* ___FILEBASENAME___Manager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -297,7 +300,8 @@
 				B3D92B8B20002F9300341601 /* ___FILEBASENAME___PresentationModel.swift in Sources */,
 				B3D92B9220002F9300341601 /* EntityGateway.swift in Sources */,
 				B3D92B8220002F9300341601 /* ___FILEBASENAME___PresenterOutput.swift in Sources */,
-				B3D92B8520002F9300341601 /* ___FILEBASENAME___Manager.swift in Sources */,
+				B3D92B8520002F9300341601 /* ___FILEBASENAME___ManagerImpl.swift in Sources */,
+				B3F70CC720003955004953B7 /* ___FILEBASENAME___Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

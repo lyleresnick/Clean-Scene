@@ -5,9 +5,7 @@ enum  ___VARIABLE_moduleName___ErrorReason {
     case otherSemanticResult
 }
 
-class ___VARIABLE_moduleName___Manager {
+protocol ___VARIABLE_moduleName___Manager {
     
-    func all(parameter: String, completion: (ManagerResponse<[___VARIABLE_moduleName___], ___VARIABLE_moduleName___ErrorReason>) -> ()) {
-        
-    }
+    func all(parameter: String, completion: (ManagerResponse<[___VARIABLE_moduleName___], ___VARIABLE_moduleName___ErrorReason>) -> ())
 }
