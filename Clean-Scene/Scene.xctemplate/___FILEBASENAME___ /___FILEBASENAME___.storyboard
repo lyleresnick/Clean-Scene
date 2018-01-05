@@ -12,7 +12,7 @@
         <!--___VARIABLE_moduleName___-->
         <scene sceneID="Lae-Oc-rZX">
             <objects>
-                <viewController storyboardIdentifier="___VARIABLE_moduleName___ViewController" id="cH4-rw-JwR" customClass="___VARIABLE_moduleName___ViewController" customModule="Clean_Scene" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="___VARIABLE_moduleName___ViewController" id="cH4-rw-JwR" customClass="___VARIABLE_moduleName___ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="xvg-3V-0aT"/>
                         <viewControllerLayoutGuide type="bottom" id="prc-Pb-eGC"/>
