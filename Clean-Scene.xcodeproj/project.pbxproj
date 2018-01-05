@@ -32,7 +32,6 @@
 		B3D92B9320002F9300341601 /* EntityGatewayFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B7D20002F9200341601 /* EntityGatewayFactory.swift */; };
 		B3D92B9420002F9300341601 /* EntityGatewayImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B7E20002F9200341601 /* EntityGatewayImpl.swift */; };
 		B3D92B9720002FA200341601 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B9520002FA200341601 /* AppDelegate.swift */; };
-		B3D92B9820002FA200341601 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B9620002FA200341601 /* ViewController.swift */; };
 		B3D92B9A2000320500341601 /* ManagerResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B992000320500341601 /* ManagerResponse.swift */; };
 		B3F70CC720003955004953B7 /* ___FILEBASENAME___Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F70CC620003955004953B7 /* ___FILEBASENAME___Manager.swift */; };
 /* End PBXBuildFile section */
@@ -65,7 +64,6 @@
 		B3D92B7D20002F9200341601 /* EntityGatewayFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityGatewayFactory.swift; sourceTree = "<group>"; };
 		B3D92B7E20002F9200341601 /* EntityGatewayImpl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntityGatewayImpl.swift; sourceTree = "<group>"; };
 		B3D92B9520002FA200341601 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B3D92B9620002FA200341601 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B3D92B992000320500341601 /* ManagerResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerResponse.swift; sourceTree = "<group>"; };
 		B3F70CC620003955004953B7 /* ___FILEBASENAME___Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Manager.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				B3D92B9520002FA200341601 /* AppDelegate.swift */,
-				B3D92B9620002FA200341601 /* ViewController.swift */,
 				B3D92B7B20002F9200341601 /* EntityGateway */,
 				B3D92B6020002F9200341601 /* Scene.xctemplate */,
 				B3D92B5720002D9200341601 /* LaunchScreen.storyboard */,
@@ -290,7 +287,6 @@
 				B3D92B8A20002F9300341601 /* ___FILEBASENAME___Cell.swift in Sources */,
 				B3D92B8320002F9300341601 /* ___FILEBASENAME___ViewModel.swift in Sources */,
 				B3D92B8820002F9300341601 /* ___FILEBASENAME___CellConfigurator.swift in Sources */,
-				B3D92B9820002FA200341601 /* ViewController.swift in Sources */,
 				B3D92B8920002F9300341601 /* ___FILEBASENAME___ViewController.swift in Sources */,
 				B3D92B9420002F9300341601 /* EntityGatewayImpl.swift in Sources */,
 				B3D92B9320002F9300341601 /* EntityGatewayFactory.swift in Sources */,
