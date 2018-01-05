@@ -7,7 +7,7 @@ enum  ___VARIABLE_moduleName___ErrorReason {
 
 class ___VARIABLE_moduleName___Manager {
     
-    func all(parameter: String, completion: (EntityResponse<[___VARIABLE_moduleName___], ___VARIABLE_moduleName___ErrorReason>) -> ()) {
+    func all(parameter: String, completion: (ManagerResponse<[___VARIABLE_moduleName___], ___VARIABLE_moduleName___ErrorReason>) -> ()) {
         
     }
 }

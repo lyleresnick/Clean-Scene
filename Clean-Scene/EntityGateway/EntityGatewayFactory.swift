@@ -2,7 +2,7 @@
 
 class EntityGatewayFactory {
     static var entityGateway: EntityGateway = {
-        return ConcreteEntityGateway()
+        return EntityGatewayImpl()
     }()
 
 }

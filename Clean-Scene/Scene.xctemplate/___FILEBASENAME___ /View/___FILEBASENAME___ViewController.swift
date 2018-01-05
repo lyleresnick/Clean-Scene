@@ -6,7 +6,7 @@ class ___VARIABLE_moduleName___ViewController: UIViewController {
     
     fileprivate var adapter = ___VARIABLE_moduleName___Adapter()
     var presenter: ___VARIABLE_moduleName___Presenter!
-    @IBOutlet private(set) weak var tableView: UITableView! {
+    @IBOutlet weak var tableView: UITableView! {
         didSet {
             tableView.delegate = adapter
             tableView.dataSource = adapter
