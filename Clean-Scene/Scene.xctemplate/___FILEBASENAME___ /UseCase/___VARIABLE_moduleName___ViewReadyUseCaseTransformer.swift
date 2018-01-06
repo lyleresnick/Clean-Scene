@@ -1,6 +1,6 @@
 //  Copyright (c) ___YEAR___ ___ORGANIZATIONNAME___. All rights reserved.
 
-class ___VARIABLE_moduleName___UseCaseTransformer {
+class ___VARIABLE_moduleName___ViewReadyUseCaseTransformer {
     
     private let modelManager: ___VARIABLE_moduleName___Manager
 

@@ -24,7 +24,7 @@
 		B3D92B8B20002F9300341601 /* ___FILEBASENAME___PresentationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B7320002F9200341601 /* ___FILEBASENAME___PresentationModel.swift */; };
 		B3D92B8C20002F9300341601 /* ___FILEBASENAME___UseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B7420002F9200341601 /* ___FILEBASENAME___UseCase.swift */; };
 		B3D92B8D20002F9300341601 /* ___FILEBASENAME___UseCaseOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B7520002F9200341601 /* ___FILEBASENAME___UseCaseOutput.swift */; };
-		B3D92B8E20002F9300341601 /* ___FILEBASENAME___UseCaseTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B7620002F9200341601 /* ___FILEBASENAME___UseCaseTransformer.swift */; };
+		B3D92B8E20002F9300341601 /* ___VARIABLE_moduleName___ViewReadyUseCaseTransformer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B7620002F9200341601 /* ___VARIABLE_moduleName___ViewReadyUseCaseTransformer.swift */; };
 		B3D92B8F20002F9300341601 /* ___FILEBASENAME___Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3D92B7820002F9200341601 /* ___FILEBASENAME___Router.swift */; };
 		B3D92B9020002F9300341601 /* TemplateIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = B3D92B7920002F9200341601 /* TemplateIcon.png */; };
 		B3D92B9120002F9300341601 /* TemplateInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3D92B7A20002F9200341601 /* TemplateInfo.plist */; };
@@ -56,7 +56,7 @@
 		B3D92B7320002F9200341601 /* ___FILEBASENAME___PresentationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___PresentationModel.swift"; sourceTree = "<group>"; };
 		B3D92B7420002F9200341601 /* ___FILEBASENAME___UseCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___UseCase.swift"; sourceTree = "<group>"; };
 		B3D92B7520002F9200341601 /* ___FILEBASENAME___UseCaseOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___UseCaseOutput.swift"; sourceTree = "<group>"; };
-		B3D92B7620002F9200341601 /* ___FILEBASENAME___UseCaseTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___UseCaseTransformer.swift"; sourceTree = "<group>"; };
+		B3D92B7620002F9200341601 /* ___VARIABLE_moduleName___ViewReadyUseCaseTransformer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___VARIABLE_moduleName___ViewReadyUseCaseTransformer.swift"; sourceTree = "<group>"; };
 		B3D92B7820002F9200341601 /* ___FILEBASENAME___Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "___FILEBASENAME___Router.swift"; sourceTree = "<group>"; };
 		B3D92B7920002F9200341601 /* TemplateIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TemplateIcon.png; sourceTree = "<group>"; };
 		B3D92B7A20002F9200341601 /* TemplateInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = TemplateInfo.plist; sourceTree = "<group>"; };
@@ -123,10 +123,10 @@
 			isa = PBXGroup;
 			children = (
 				B3D92B6320002F9200341601 /* ___FILEBASENAME___.storyboard */,
-				B3D92B6420002F9200341601 /* Presenter */,
 				B3D92B6820002F9200341601 /* Manager */,
 				B3D92B6B20002F9200341601 /* Connector */,
 				B3D92B6D20002F9200341601 /* View */,
+				B3D92B6420002F9200341601 /* Presenter */,
 				B3D92B7220002F9200341601 /* UseCase */,
 				B3D92B7720002F9200341601 /* Router */,
 			);
@@ -178,7 +178,7 @@
 				B3D92B7320002F9200341601 /* ___FILEBASENAME___PresentationModel.swift */,
 				B3D92B7420002F9200341601 /* ___FILEBASENAME___UseCase.swift */,
 				B3D92B7520002F9200341601 /* ___FILEBASENAME___UseCaseOutput.swift */,
-				B3D92B7620002F9200341601 /* ___FILEBASENAME___UseCaseTransformer.swift */,
+				B3D92B7620002F9200341601 /* ___VARIABLE_moduleName___ViewReadyUseCaseTransformer.swift */,
 			);
 			path = UseCase;
 			sourceTree = "<group>";
@@ -278,7 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B3D92B8720002F9300341601 /* ___FILEBASENAME___Adapter.swift in Sources */,
-				B3D92B8E20002F9300341601 /* ___FILEBASENAME___UseCaseTransformer.swift in Sources */,
+				B3D92B8E20002F9300341601 /* ___VARIABLE_moduleName___ViewReadyUseCaseTransformer.swift in Sources */,
 				B3D92B9720002FA200341601 /* AppDelegate.swift in Sources */,
 				B3D92B8C20002F9300341601 /* ___FILEBASENAME___UseCase.swift in Sources */,
 				B3D92B8120002F9300341601 /* ___FILEBASENAME___Presenter.swift in Sources */,

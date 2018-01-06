@@ -11,11 +11,11 @@ class ___VARIABLE_moduleName___UseCase {
         self.entityGateway = entityGateway
     }
 
-    func eventViewReady(parameter: String, transformer: ___VARIABLE_moduleName___UseCaseTransformer! = nil) {
+    func eventViewReady(parameter: String, transformer: ___VARIABLE_moduleName___ViewReadyUseCaseTransformer! = nil) {
 
-        var transformer: ___VARIABLE_moduleName___UseCaseTransformer! = transformer
+        var transformer: ___VARIABLE_moduleName___ViewReadyUseCaseTransformer! = transformer
         if transformer == nil {
-            transformer = ___VARIABLE_moduleName___UseCaseTransformer(modelManager: entityGateway.modelManager)
+            transformer = ___VARIABLE_moduleName___ViewReadyUseCaseTransformer(modelManager: entityGateway.modelManager)
         }
         transformer.transform(parameter: parameter, output: output)
     }
