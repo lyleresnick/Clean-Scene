@@ -12,8 +12,8 @@ class ___VARIABLE_moduleName___Presenter {
         self.useCase = useCase
     }
     
-    func eventViewReady() {
-        useCase.eventViewReady(parameter: "Hello" )
+    func eventViewReady(parameter: String ) {
+        useCase.eventViewReady(parameter: parameter )
     }
     
     func eventItemSelected( row: Int ) {

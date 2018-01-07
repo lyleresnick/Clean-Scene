@@ -22,7 +22,7 @@ class ___VARIABLE_moduleName___ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        presenter.eventViewReady()
+        presenter.eventViewReady(parameter: "Hello" )
     }
 }
 
