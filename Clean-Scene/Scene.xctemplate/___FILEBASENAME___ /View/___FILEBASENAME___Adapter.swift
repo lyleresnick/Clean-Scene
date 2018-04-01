@@ -4,10 +4,11 @@ import UIKit
 
 class ___VARIABLE_moduleName___Adapter: NSObject {
     
-    var presenter: ___VARIABLE_moduleName___Presenter!
+    var presenter: ___VARIABLE_moduleName___Presenter
     let cellConfigurator: ___VARIABLE_moduleName___CellConfigurator
     
-    init(cellConfigurator: ___VARIABLE_moduleName___CellConfigurator = ___VARIABLE_moduleName___CellConfigurator() ) {
+    init(presenter: ___VARIABLE_moduleName___Presenter, cellConfigurator: ___VARIABLE_moduleName___CellConfigurator = ___VARIABLE_moduleName___CellConfigurator() ) {
+        self.presenter = presenter
         self.cellConfigurator = cellConfigurator
     }
 }

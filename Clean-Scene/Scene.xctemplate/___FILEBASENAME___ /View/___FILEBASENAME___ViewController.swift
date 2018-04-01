@@ -4,7 +4,7 @@ import UIKit
 
 class ___VARIABLE_moduleName___ViewController: UIViewController {
     
-    fileprivate var adapter = ___VARIABLE_moduleName___Adapter()
+    private var adapter: ___VARIABLE_moduleName___Adapter!
     var presenter: ___VARIABLE_moduleName___Presenter!
     @IBOutlet weak var tableView: UITableView! {
         didSet {
@@ -16,13 +16,22 @@ class ___VARIABLE_moduleName___ViewController: UIViewController {
     override func awakeFromNib() {
         super.awakeFromNib()
 
-        ___VARIABLE_moduleName___Connector(viewController: self, adapter: adapter).configure()
+        ___VARIABLE_moduleName___Connector(viewController: self).configure()
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        configureAdapter()
 
         presenter.eventViewReady(parameter: "Hello" )
+    }
+    
+    private func configureAdapter() {
+        
+        adapter = ___VARIABLE_moduleName___Adapter(presenter: presenter)
+        tableView.delegate = adapter
+        tableView.dataSource = adapter
     }
 }
 
