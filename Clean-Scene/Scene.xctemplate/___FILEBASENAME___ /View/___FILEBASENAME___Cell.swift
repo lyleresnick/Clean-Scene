@@ -4,6 +4,9 @@ import UIKit
 
 class ___VARIABLE_moduleName___Cell: UITableViewCell {
     
+    weak var tableView: UITableView!
+    var presenter: ___VARIABLE_moduleName___Presenter!
+    
     @IBOutlet private(set) weak var nameLabel: UILabel!
     @IBOutlet private(set) weak var ageLabel: UILabel!
 

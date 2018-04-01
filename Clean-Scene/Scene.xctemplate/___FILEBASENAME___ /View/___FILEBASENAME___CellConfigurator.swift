@@ -8,12 +8,14 @@ class ___VARIABLE_moduleName___CellConfigurator {
         case modelList
     }
     
-    var tableView: UITableView!
-    var indexPath: IndexPath!
+    private(set) var tableView: UITableView!
+    private(set) var indexPath: IndexPath!
+    private(set) var presenter: ___VARIABLE_moduleName___Presenter!
     
-    func set(tableView: UITableView, indexPath: IndexPath) -> Self {
+    func set(tableView: UITableView, indexPath: IndexPath, presenter: ___VARIABLE_moduleName___Presenter) -> Self {
         self.tableView = tableView
         self.indexPath = indexPath
+        self.presenter = presenter
         return self;
     }
     
@@ -22,7 +24,12 @@ class ___VARIABLE_moduleName___CellConfigurator {
     }
     
     func tableCell() -> ___VARIABLE_moduleName___Cell {
-        return tableView!.dequeueReusableCell(withIdentifier: Cell.modelList.rawValue, for: indexPath!) as! ___VARIABLE_moduleName___Cell
+        
+        let cell = tableView!.dequeueReusableCell(withIdentifier: Cell.modelList.rawValue, for: indexPath!) as! ___VARIABLE_moduleName___Cell
+        cell.presenter = presenter
+        cell.tableView = tableView
+
+        return cell
     }
 }
 
