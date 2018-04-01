@@ -2,5 +2,5 @@
 
 protocol ___VARIABLE_moduleName___Router: class {
     
-    func transitionToItem(index: Int)
+    func routeReason(index: Int)
 }
