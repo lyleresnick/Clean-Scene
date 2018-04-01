@@ -18,7 +18,7 @@ class ___VARIABLE_moduleName___Presenter {
     
     func eventItemSelected( row: Int ) {
 
-        router.transitionToItem(index: row)
+        router.routeReason(index: row)
     }
     
     func row(at index: Int ) -> ___VARIABLE_moduleName___ViewModel {

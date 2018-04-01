@@ -164,9 +164,9 @@
 		B3D92B6D20002F9200341601 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B3D92B7020002F9200341601 /* ___FILEBASENAME___ViewController.swift */,
 				B3D92B6E20002F9200341601 /* ___FILEBASENAME___Adapter.swift */,
 				B3D92B6F20002F9200341601 /* ___FILEBASENAME___CellConfigurator.swift */,
-				B3D92B7020002F9200341601 /* ___FILEBASENAME___ViewController.swift */,
 				B3D92B7120002F9200341601 /* ___FILEBASENAME___Cell.swift */,
 			);
 			path = View;

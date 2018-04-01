@@ -6,10 +6,14 @@ class ___VARIABLE_moduleName___ViewController: UIViewController {
     
     private var adapter: ___VARIABLE_moduleName___Adapter!
     var presenter: ___VARIABLE_moduleName___Presenter!
-    @IBOutlet weak var tableView: UITableView! {
-        didSet {
-            tableView.delegate = adapter
-            tableView.dataSource = adapter
+    @IBOutlet weak var tableView: UITableView!
+    
+    weak var router: ___VARIABLE_moduleName___Router! {
+        set {
+            presenter.router = newValue
+        }
+        get {
+            return presenter.router
         }
     }
     
